@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_cart,Chrome 121.0.0.0,,,10-02-2024 00:59:31,10-02-2024 00:59:59,28.779s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_shopping_cart,Chrome 121.0.0.0,,,10-02-2024 00:59:31,10-02-2024 00:59:59,28.386s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 00:59:31,10-02-2024 00:59:35,4.328s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 00:59:36,10-02-2024 00:59:37,1.249s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,10-02-2024 00:59:37,10-02-2024 00:59:38,1.410s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), ""smart watch"")",Chrome 121.0.0.0,,,10-02-2024 00:59:38,10-02-2024 00:59:40,1.326s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Chrome 121.0.0.0,,,10-02-2024 00:59:40,10-02-2024 00:59:46,6.680s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Amazon.in  smart watch/img_Tomorrow, 11 Feb_s-image""))",Chrome 121.0.0.0,,,10-02-2024 00:59:46,10-02-2024 00:59:48,1.763s,PASSED
+"switchToWindowTitle(""Noise Vivid Call 2 Smart Watch with 1.85” HD Display, BT Calling, IP68 Waterproof, 7 Days Battery Life, Sleep Tracking, 150+ Watch Faces (Jet Black) : Amazon.in: Electronics"")",Chrome 121.0.0.0,,,10-02-2024 00:59:48,10-02-2024 00:59:53,4.596s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Noise Vivid Call 2 Smart Watch with 1._65537e/input_Shipping cost, delivery date and orde_362d1e""))",Chrome 121.0.0.0,,,10-02-2024 00:59:53,10-02-2024 00:59:54,1.713s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Noise Vivid Call 2 Smart Watch with 1._65537e/input_There was a problem retrieving the co_d71a61""))",Chrome 121.0.0.0,,,10-02-2024 00:59:54,10-02-2024 00:59:59,4.675s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 00:59:59,10-02-2024 00:59:59,0.386s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 00:59:59,10-02-2024 00:59:59,0.009s,PASSED

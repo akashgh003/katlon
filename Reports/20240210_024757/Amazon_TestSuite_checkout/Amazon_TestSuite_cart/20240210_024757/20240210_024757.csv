@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_cart,Chrome 121.0.0.0,,,10-02-2024 02:48:00,10-02-2024 02:48:57,56.938s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_checkout,Chrome 121.0.0.0,,,10-02-2024 02:48:01,10-02-2024 02:48:57,56.657s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 02:48:01,10-02-2024 02:48:03,2.578s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 02:48:03,10-02-2024 02:48:06,2.299s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 02:48:06,10-02-2024 02:48:07,0.952s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,10-02-2024 02:48:07,10-02-2024 02:48:08,1.076s,PASSED
+"click(findTestObject(""Object Repository/Amazon_checkout_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in""))",Chrome 121.0.0.0,,,10-02-2024 02:48:08,10-02-2024 02:48:09,1.449s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_checkout_OR/Page_Amazon Sign In/input_Email or mobile phone number_email""), username)",Chrome 121.0.0.0,,,10-02-2024 02:48:09,10-02-2024 02:48:11,1.814s,PASSED
+"click(findTestObject(""Object Repository/Amazon_checkout_OR/Page_Amazon Sign In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 121.0.0.0,,,10-02-2024 02:48:11,10-02-2024 02:48:12,1.342s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_checkout_OR/Page_Amazon Sign In/input_Forgot Password_password""), ""jKhJCufa6utDUfafCRSIiw=="")",Chrome 121.0.0.0,,,10-02-2024 02:48:12,10-02-2024 02:48:13,0.785s,PASSED
+"click(findTestObject(""Object Repository/Amazon_checkout_OR/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Chrome 121.0.0.0,,,10-02-2024 02:48:13,10-02-2024 02:48:13,0.364s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_checkout_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), ""smart watch"")",Chrome 121.0.0.0,,,10-02-2024 02:48:13,10-02-2024 02:48:16,2.948s,PASSED
+"click(findTestObject(""Object Repository/Amazon_checkout_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Chrome 121.0.0.0,,,10-02-2024 02:48:16,10-02-2024 02:48:40,23.684s,PASSED
+"click(findTestObject(""Object Repository/Amazon_checkout_OR/Page_Amazon.in  smart watch/img_Best seller_s-image""))",Chrome 121.0.0.0,,,10-02-2024 02:48:40,10-02-2024 02:48:41,0.933s,PASSED
+"switchToWindowTitle(""Fire-Boltt Gladiator 1.96"" Biggest Display Smart Watch with Bluetooth Calling, Voice Assistant &123 Sports Modes, 8 Unique UI Interactions, SpO2, 24/7 Heart Rate Tracking (Light Gold) : Amazon.in: Electronics"")",Chrome 121.0.0.0,,,10-02-2024 02:48:41,10-02-2024 02:48:46,4.882s,PASSED
+"click(findTestObject(""Object Repository/Amazon_checkout_OR/Page_Fire-Boltt Gladiator 1.96 Biggest Disp_abe657/input_Shipping cost, delivery date and orde_a6d45b""))",Chrome 121.0.0.0,,,10-02-2024 02:48:46,10-02-2024 02:48:51,5.191s,PASSED
+"click(findTestObject(""Object Repository/Amazon_checkout_OR/Page_Select a delivery address/input_Amazon.in homepage_a-button-input""))",Chrome 121.0.0.0,,,10-02-2024 02:48:51,10-02-2024 02:48:52,1.213s,PASSED
+"click(findTestObject(""Object Repository/Amazon_checkout_OR/Page_Amazon.in Checkout/input_Amazon.in homepage_a-button-input""))",Chrome 121.0.0.0,,,10-02-2024 02:48:52,10-02-2024 02:48:57,4.736s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 02:48:57,10-02-2024 02:48:57,0.217s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 02:48:57,10-02-2024 02:48:57,0.004s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 02:48:57,10-02-2024 02:48:57,0.008s,PASSED

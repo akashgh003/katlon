@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_Cart_Excel" time="24.256" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_Cart_Excel" tests="1" failures="0" errors="0" time="24.256" skipped="0" timestamp="10-02-2024T01:26:40" hostname="Akash Ghosh - 10.1.161.136" id="Test Suites/Amazon_Cart_Excel">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Akash Ghosh\\git\\katlon\\Reports\\20240210_012635\\Amazon_Cart_Excel\\20240210_012635"/>
+         <property name="logFiles" value="C:\\Users\\Akash Ghosh\\git\\katlon\\Reports\\20240210_012635\\Amazon_Cart_Excel\\20240210_012635\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Akash Ghosh - 10.1.161.136"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="10.1.161.136"/>
+         <property name="sessionId" value="6e6c57ba817b63c9a29c877e170445ff"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Amazon/TC_shopping_cart" time="23.853" classname="Test Cases/Amazon/TC_shopping_cart" status="PASSED">
+         <system-out><![CDATA[10-02-2024T01:26:40 - [TEST_CASE][PASSED] - Test Cases/Amazon/TC_shopping_cart: Test Cases/Amazon/TC_shopping_cart
+
+10-02-2024T01:26:41 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Navigate to 'https://www.amazon.in/' successfully
+
+10-02-2024T01:26:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T01:26:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T01:26:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T01:26:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T01:26:43 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+10-02-2024T01:26:44 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+10-02-2024T01:26:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-02-2024T01:26:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+10-02-2024T01:26:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-02-2024T01:26:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-02-2024T01:26:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-02-2024T01:26:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+10-02-2024T01:26:47 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+10-02-2024T01:26:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), category): Text 'smart watch' is set on object 'Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+10-02-2024T01:26:48 - [MESSAGE][PASSED] - Text 'smart watch' is set on object 'Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+10-02-2024T01:26:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+10-02-2024T01:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+10-02-2024T01:26:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_cart_OR/Page_Amazon.in  smart watch/img_Tomorrow, 11 Feb_s-image")): Object: 'Object Repository/Amazon_cart_OR/Page_Amazon.in  smart watch/img_Tomorrow, 11 Feb_s-image' is clicked on
+
+10-02-2024T01:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_cart_OR/Page_Amazon.in  smart watch/img_Tomorrow, 11 Feb_s-image' is clicked on
+
+10-02-2024T01:26:54 - [TEST_STEP][PASSED] - switchToWindowTitle(product): Switched to window with title: 'Noise Vivid Call 2 Smart Watch with 1.85” HD Display, BT Calling, IP68 Waterproof, 7 Days Battery Life, Sleep Tracking, 150+ Watch Faces (Jet Black) : Amazon.in: Electronics'
+
+10-02-2024T01:26:59 - [MESSAGE][PASSED] - Switched to window with title: 'Noise Vivid Call 2 Smart Watch with 1.85” HD Display, BT Calling, IP68 Waterproof, 7 Days Battery Life, Sleep Tracking, 150+ Watch Faces (Jet Black) : Amazon.in: Electronics'
+
+10-02-2024T01:26:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_cart_OR/Page_Noise Vivid Call 2 Smart Watch with 1._65537e/input_Shipping cost, delivery date and orde_362d1e")): Object: 'Object Repository/Amazon_cart_OR/Page_Noise Vivid Call 2 Smart Watch with 1._65537e/input_Shipping cost, delivery date and orde_362d1e' is clicked on
+
+10-02-2024T01:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_cart_OR/Page_Noise Vivid Call 2 Smart Watch with 1._65537e/input_Shipping cost, delivery date and orde_362d1e' is clicked on
+
+10-02-2024T01:27:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_cart_OR/Page_Noise Vivid Call 2 Smart Watch with 1._65537e/input_There was a problem retrieving the co_d71a61")): Object: 'Object Repository/Amazon_cart_OR/Page_Noise Vivid Call 2 Smart Watch with 1._65537e/input_There was a problem retrieving the co_d71a61' is clicked on
+
+10-02-2024T01:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_cart_OR/Page_Noise Vivid Call 2 Smart Watch with 1._65537e/input_There was a problem retrieving the co_d71a61' is clicked on
+
+10-02-2024T01:27:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T01:27:04 - [MESSAGE][PASSED] - Browser is closed
+
+10-02-2024T01:27:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+10-02-2024T01:27:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-02-2024T01:27:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-02-2024T01:26:40 - [TEST_SUITE][PASSED] - Amazon_Cart_Excel: Test Cases/Amazon/TC_shopping_cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

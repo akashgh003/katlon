@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_OR/Page_Amazon Password Assistance/input_New password_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_fpp_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Button_OR/Page_Amazon Sign In/input_Forgot Password_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_Button_OR/Page_Amazon Sign In/input_Forgot Password_password_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords",
+      "brokenLocator": "//input[@id\u003d\u0027twotabsearchtextbox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027text\u0027 and @id \u003d \u0027twotabsearchtextbox\u0027 and @name \u003d \u0027field-keywords\u0027 and @placeholder \u003d \u0027Search Amazon.in\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_checkout_OR/Page_Amazon.in Checkout/input_Why_ppw-instrumentRowSelection",
+      "brokenLocator": "//input[@id\u003d\u0027pp-oUqXF5-165\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[6]/div/div/div/div/div/div/label/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_checkout_OR/Page_Amazon.in Checkout/input_Why_ppw-instrumentRowSelection_position.png"
+    }
+  ]
+}

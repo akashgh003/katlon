@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Amazon_Login_Excel</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>040c4524-8573-4fde-8139-7623e65c595b</testSuiteGuid>
+   <testCaseLink>
+      <guid>12d1bb5b-e990-48af-95ef-9fc0ebdbf7bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Amazon/TC_Amazon_Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>08e64f1c-932e-4c44-bece-310f8d53d4ad</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Amazon_Login_Excel/Amazon_Excel_Login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>08e64f1c-932e-4c44-bece-310f8d53d4ad</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>3fa83700-aef3-4649-92f8-3745efcf3e63</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>08e64f1c-932e-4c44-bece-310f8d53d4ad</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>b7bc08a4-36cc-4473-b323-8460c22aa683</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

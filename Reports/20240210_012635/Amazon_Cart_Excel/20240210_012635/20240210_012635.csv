@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Cart_Excel,Chrome 121.0.0.0,,,10-02-2024 01:26:40,10-02-2024 01:27:04,24.256s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_shopping_cart,Chrome 121.0.0.0,,,10-02-2024 01:26:40,10-02-2024 01:27:04,23.853s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 01:26:41,10-02-2024 01:26:44,3.389s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 01:26:44,10-02-2024 01:26:46,1.310s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,10-02-2024 01:26:46,10-02-2024 01:26:47,1.062s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), category)",Chrome 121.0.0.0,,,10-02-2024 01:26:47,10-02-2024 01:26:48,1.298s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Chrome 121.0.0.0,,,10-02-2024 01:26:48,10-02-2024 01:26:53,4.772s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Amazon.in  smart watch/img_Tomorrow, 11 Feb_s-image""))",Chrome 121.0.0.0,,,10-02-2024 01:26:53,10-02-2024 01:26:54,0.908s,PASSED
+switchToWindowTitle(product),Chrome 121.0.0.0,,,10-02-2024 01:26:54,10-02-2024 01:26:59,4.985s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Noise Vivid Call 2 Smart Watch with 1._65537e/input_Shipping cost, delivery date and orde_362d1e""))",Chrome 121.0.0.0,,,10-02-2024 01:26:59,10-02-2024 01:27:00,1.116s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Noise Vivid Call 2 Smart Watch with 1._65537e/input_There was a problem retrieving the co_d71a61""))",Chrome 121.0.0.0,,,10-02-2024 01:27:00,10-02-2024 01:27:04,4.313s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 01:27:04,10-02-2024 01:27:04,0.325s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 01:27:04,10-02-2024 01:27:04,0.007s,PASSED

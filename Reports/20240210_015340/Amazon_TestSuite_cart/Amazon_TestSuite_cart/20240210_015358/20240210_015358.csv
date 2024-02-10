@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_cart,Chrome 121.0.0.0,,,2024-02-10 01:54:02,2024-02-10 01:55:15,1m - 13.129s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_shopping_cart,Chrome 121.0.0.0,,,2024-02-10 01:54:02,2024-02-10 01:55:15,1m - 12.844s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,2024-02-10 01:54:02,2024-02-10 01:54:08,5.844s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,2024-02-10 01:54:08,2024-02-10 01:54:11,3.576s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-10 01:54:12,2024-02-10 01:54:14,2.333s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,2024-02-10 01:54:14,2024-02-10 01:54:16,1.563s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), category)",Chrome 121.0.0.0,,,2024-02-10 01:54:16,2024-02-10 01:54:54,38.899s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-10 01:54:54,2024-02-10 01:55:02,7.244s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Amazon.in  smart watch/img_Tomorrow, 11 Feb_s-image""))",Chrome 121.0.0.0,,,2024-02-10 01:55:02,2024-02-10 01:55:03,1.279s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Amazon_Cart/Amazon_Cart""), false)",Chrome 121.0.0.0,,,2024-02-10 01:55:03,2024-02-10 01:55:04,0.818s,PASSED
+switchToWindowTitle(product),Chrome 121.0.0.0,,,2024-02-10 01:55:04,2024-02-10 01:55:07,3.434s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Noise Vivid Call 2 Smart Watch with 1._65537e/input_Shipping cost, delivery date and orde_362d1e""))",Chrome 121.0.0.0,,,2024-02-10 01:55:07,2024-02-10 01:55:09,1.407s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Noise Vivid Call 2 Smart Watch with 1._65537e/input_There was a problem retrieving the co_d71a61""))",Chrome 121.0.0.0,,,2024-02-10 01:55:09,2024-02-10 01:55:14,5.236s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-10 01:55:14,2024-02-10 01:55:15,0.824s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,2024-02-10 01:55:15,2024-02-10 01:55:15,0.006s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,2024-02-10 01:55:15,2024-02-10 01:55:15,0.006s,PASSED

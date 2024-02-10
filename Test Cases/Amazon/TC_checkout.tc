@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_checkout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5e7efc3-0b58-4192-bbcd-7ea947c85eee</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b50c7d45-4010-43d5-8679-db5fe566f981</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'9775827093'</defaultValue>
+      <description></description>
+      <id>b50c7d45-4010-43d5-8679-db5fe566f981</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

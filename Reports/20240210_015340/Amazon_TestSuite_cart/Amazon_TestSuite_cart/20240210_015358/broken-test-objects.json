@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords",
+      "brokenLocator": "//input[@id\u003d\u0027twotabsearchtextbox\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027text\u0027 and @id \u003d \u0027twotabsearchtextbox\u0027 and @name \u003d \u0027field-keywords\u0027 and @placeholder \u003d \u0027Search Amazon.in\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20240210_015340/Amazon_TestSuite_cart/Amazon_TestSuite_cart/20240210_015358/Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords_BASIC.png"
+    }
+  ]
+}

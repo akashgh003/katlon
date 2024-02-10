@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_Login,Chrome 121.0.0.0,,,09-02-2024 00:03:01,09-02-2024 00:03:28,26.264s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Login,Chrome 121.0.0.0,,,09-02-2024 00:03:02,09-02-2024 00:03:28,26.093s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 00:03:02,09-02-2024 00:03:04,1.600s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,09-02-2024 00:03:04,09-02-2024 00:03:06,2.806s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in""))",Chrome 121.0.0.0,,,09-02-2024 00:03:06,09-02-2024 00:03:23,16.836s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign In/input_Email or mobile phone number_email""), ""9775827093"")",Chrome 121.0.0.0,,,09-02-2024 00:03:23,09-02-2024 00:03:25,1.616s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 121.0.0.0,,,09-02-2024 00:03:25,09-02-2024 00:03:26,1.139s,PASSED
+"setText(findTestObject(""Amazon_Button_OR/Page_Amazon Sign In/input_Forgot Password_password""), ""akash@1906"")",Chrome 121.0.0.0,,,09-02-2024 00:03:26,09-02-2024 00:03:27,1.247s,PASSED
+"click(findTestObject(""Amazon_Button_OR/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Chrome 121.0.0.0,,,09-02-2024 00:03:27,09-02-2024 00:03:28,0.373s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 00:03:28,09-02-2024 00:03:28,0.211s,PASSED

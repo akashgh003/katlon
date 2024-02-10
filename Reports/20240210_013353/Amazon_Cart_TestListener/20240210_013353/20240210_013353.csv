@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Cart_TestListener,Chrome 121.0.0.0,,,10-02-2024 01:33:58,10-02-2024 01:34:30,32.097s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_shopping_cart,Chrome 121.0.0.0,,,10-02-2024 01:33:59,10-02-2024 01:34:30,31.697s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 01:33:59,10-02-2024 01:34:03,3.837s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 01:34:03,10-02-2024 01:34:06,3.464s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 01:34:06,10-02-2024 01:34:08,1.318s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,10-02-2024 01:34:08,10-02-2024 01:34:09,1.485s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), category)",Chrome 121.0.0.0,,,10-02-2024 01:34:09,10-02-2024 01:34:11,1.467s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_nav-search-submit-button""))",Chrome 121.0.0.0,,,10-02-2024 01:34:11,10-02-2024 01:34:18,7.450s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Amazon.in  smart watch/img_Tomorrow, 11 Feb_s-image""))",Chrome 121.0.0.0,,,10-02-2024 01:34:18,10-02-2024 01:34:20,1.641s,PASSED
+switchToWindowTitle(product),Chrome 121.0.0.0,,,10-02-2024 01:34:20,10-02-2024 01:34:23,3.825s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Noise Vivid Call 2 Smart Watch with 1._65537e/input_Shipping cost, delivery date and orde_362d1e""))",Chrome 121.0.0.0,,,10-02-2024 01:34:23,10-02-2024 01:34:25,1.581s,PASSED
+"click(findTestObject(""Object Repository/Amazon_cart_OR/Page_Noise Vivid Call 2 Smart Watch with 1._65537e/input_There was a problem retrieving the co_d71a61""))",Chrome 121.0.0.0,,,10-02-2024 01:34:25,10-02-2024 01:34:30,4.994s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,10-02-2024 01:34:30,10-02-2024 01:34:30,0.259s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 01:34:30,10-02-2024 01:34:30,0.006s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 01:34:30,10-02-2024 01:34:30,0.006s,PASSED

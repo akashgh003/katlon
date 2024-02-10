@@ -1,0 +1,1 @@
+Test Suites/Amazon_TestSuite_Login/Amazon_TSCollection_Login
